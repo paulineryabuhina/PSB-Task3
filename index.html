@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <title>Cats and bowl</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Эмуляция кормления котиков</h1>
+        <div class="data">
+            <label for="n">Количество котиков:</label>
+            <input class="value" type="text" id="n">
+        </div>
+        <div class="data">
+            <label for="b">Сколько корма котику:</label>
+            <input class="value" type="text" id="b">
+        </div>
+        <div class="data">
+            <label for="m">Вместимость миски:</label>
+            <input class="value" type="text" id="m">
+        </div>
+        <div class="data">
+            <label for="t">Время на поедание корма:</label>
+            <input class="value" type="text" id="t">
+        </div>
+        <div class="data">
+            <label for="r">Время на пополнение миски:</label>
+            <input class="value" type="text" id="r">
+        </div>
+        <button class="button" onclick="startSimulation()">Запустить</button>
+        <div id="output"></div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
